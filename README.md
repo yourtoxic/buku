@@ -100,7 +100,7 @@ To support other GNOME versions, add them to `shell-version` in `metadata.json` 
 
 ```bash
 # from a release zip
-unzip butu@toxic.zip -d butu
+unzip butu-main.zip -d butu
 cd butu
 
 ./install.sh
