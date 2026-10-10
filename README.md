@@ -80,7 +80,7 @@ Everything is configurable from a native GNOME preferences window: colors, size,
 
 | Preferences | Wave effects |
 |---|---|
-| ![prefs](prefs.png) | `screenshots/waves.gif` |
+| ![prefs](prefs.gif) | ![waves](waves.gif)|
 
 ## Requirements
 
