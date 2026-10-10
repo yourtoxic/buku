@@ -489,7 +489,8 @@ Please include:
 
 ## Credits
 
-- Inspired by Dynamic-Island-style music pills for the GNOME panel.
+- Inspired by dynamic-music-pill for the GNOME panel.
+- https://github.com/Andbal23/dynamic-music-pill
 - Built with [GJS](https://gjs.guide), [St](https://gjs-docs.gnome.org/st13~13/), [Clutter](https://gjs-docs.gnome.org/clutter13~13/), [Cairo](https://gjs-docs.gnome.org/cairo10~1.0/) and [libadwaita](https://gnome.pages.gitlab.gnome.org/libadwaita/).
 - Battery data from [UPower](https://upower.freedesktop.org/).
 - Battery style names (iOS, One UI, ColorOS, EMUI and others) belong to their respective owners. Butu draws its own original icons inspired by those styles and is not affiliated with them.
