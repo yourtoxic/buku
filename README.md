@@ -2,7 +2,7 @@
 
 # Butu
 
-**A dynamic charging pill for the GNOME Shell top panel.**
+**A dynamic charging pill extension for the GNOME Shell top panel.**
 
 Compact battery percentage while you run on battery. When you plug in, the pill expands and shows a live charging animation.
 
