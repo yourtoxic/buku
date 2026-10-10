@@ -1,0 +1,8 @@
+{
+  "name": "Butu",
+  "description": "Dynamic charging pill for the top panel. Compact percentage while discharging, expands with charging animation when plugged in. Wallpaper or custom color, custom size. Event-driven, no polling.",
+  "uuid": "butu@toxic",
+  "shell-version": ["50"],
+  "settings-schema": "org.gnome.shell.extensions.butu",
+  "version-name": "1.0.0"
+}
