@@ -96,11 +96,11 @@ To support other GNOME versions, add them to `shell-version` in `metadata.json` 
 
 ## Installation
 
-### Option 1: install script (from a release zip or a clone)
+### Option 1: install via cloning 
+**clone the repository in a directory**
 
 ```bash
-# from a release zip
-unzip butu-main.zip -d butu
+unzip buku-main.zip
 cd butu
 
 ./install.sh
@@ -114,12 +114,10 @@ Then **log out and log back in** (GNOME on Wayland cannot restart the shell in p
 gnome-extensions enable butu@toxic
 ```
 
-### Option 2: `gnome-extensions install`
+### Option 2: install via zip file
 
 ```bash
-gnome-extensions install --force butu@toxic.zip
-# log out and log in
-gnome-extensions enable butu@toxic
+
 ```
 
 ### Option 3: manual
