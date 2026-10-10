@@ -96,13 +96,22 @@ To support other GNOME versions, add them to `shell-version` in `metadata.json` 
 
 ## Installation
 
-### Option 1: install via cloning 
-**clone the repository in a directory**
+### Install by cloning 
+1. Clone the repository in a directory:
 
 ```bash
-unzip buku-main.zip
 cd butu
-
+```
+2. Navigate to the cloned directory:
+```bash
+cd butu
+```
+4. Make the install.sh script executable:
+```bash
+chmod +x install.sh
+```
+4. Run the installation command:
+```bash
 ./install.sh
 ```
 
@@ -114,26 +123,25 @@ Then **log out and log back in** (GNOME on Wayland cannot restart the shell in p
 gnome-extensions enable butu@toxic
 ```
 
-### Option 2: install via zip file
-
+### Install by zip file
+1. Download the .zip file.
+2. Unzip the file:
 ```bash
-
+unzip butu-main
 ```
-
-### Option 3: manual
-
+3.Navigate to the cloned directory:
 ```bash
-EXT=~/.local/share/gnome-shell/extensions/butu@toxic
-mkdir -p "$EXT"
-cp -r extension.js prefs.js metadata.json stylesheet.css src schemas "$EXT"/
-glib-compile-schemas "$EXT/schemas"
-# log out and log in, then:
-gnome-extensions enable butu@toxic
+cd butu-main
 ```
-
-### Updating
-
-Run `./install.sh` again (or Option 2 with `--force`), then log out and log in.
+4.Make the install.sh script executable:
+```bash
+chmod +x install.sh
+```
+5. Run the installation command:
+```bash
+./install.sh
+```
+Then **log out and log back in** (GNOME on Wayland cannot restart the shell in place) and enable it:
 
 ### Uninstalling
 
