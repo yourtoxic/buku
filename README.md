@@ -76,7 +76,7 @@ Everything is configurable from a native GNOME preferences window: colors, size,
 
 | Charging | Discharging (compact) |
 |---|---|
-| `charging.png` | `screenshots/compact.png` |
+| ![Charging](charging.png) | `screenshots/compact.png` |
 
 | Preferences | Wave effects |
 |---|---|
