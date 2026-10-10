@@ -73,11 +73,10 @@ Everything is configurable from a native GNOME preferences window: colors, size,
 
 ## Screenshots
 
-> Add your screenshots to a `docs/` or `screenshots/` folder and update the paths below.
 
 | Charging | Discharging (compact) |
 |---|---|
-| `screenshots/charging.png` | `screenshots/compact.png` |
+| `charging.png` | `screenshots/compact.png` |
 
 | Preferences | Wave effects |
 |---|---|
