@@ -121,3 +121,14 @@ export function loadAverageColor(uri, cancellable, cb) {
         });
     });
 }
+
+export function lighten(rgb) {
+    const hsl = rgbToHsl(rgb);
+    hsl.l = Math.min(0.75, hsl.l + 0.25);
+    return hslToRgb(hsl);
+}
+
+// 0% red -> 100% green
+export function levelColor(p) {
+    return hslToRgb({h: clamp(p, 0, 1) * 0.33, s: 0.85, l: 0.55});
+}
